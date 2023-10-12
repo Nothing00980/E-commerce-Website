@@ -256,6 +256,10 @@ h1.logo{
     color: var(--hover-color);
 }
 
+#login:hover{
+    color: var(--hover-color);
+}
+
 .login_menu {
     width: 100%;
 }
