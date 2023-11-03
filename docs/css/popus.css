@@ -1,0 +1,16 @@
+.popup{
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: aliceblue;
+    position: absolute;
+    padding: 5% 10%;
+    z-index: 1;
+    border-radius: 5%;
+
+}
+.deactive{
+    display: none;
+}
+.active{
+    
+}

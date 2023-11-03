@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Product</title>
+      <title>Blog</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -29,6 +29,7 @@
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
       <!-- owl stylesheets -->
       <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+      <link rel="stylesheet" href="css/popus.css">
    </head>
    <body>
       <!-- header section start -->
@@ -48,14 +49,17 @@
                      <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                      </li>
-                     <li class="nav-item active">
+                     <li class="nav-item">
                         <a class="nav-link" href="product.html">Product</a>
                      </li>
-                     <li class="nav-item">
+                     <li class="nav-item ">
                         <a class="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="sell.html">Sell</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -73,54 +77,43 @@
          </div>
       </div>
       <!-- header section end -->
-      <!-- product section start -->
+      <!-- Blog section start -->
       <div class="product_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <h1 class="product_taital">Products</h1>
-                  <p class="product_text">Discover , a versatile and high-quality product available on our website from both a reputable company and a dedicated individual seller. Whether you prefer the reliability of a trusted brand or the personalized touch of a seller's unique offering, we've got you covered.</p>
-               </div>
-            </div>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <h1 class="product_taital">Sell Your Products</h1>
+                 <p class="product_text">Create a Value for your Product</p>
+                 <div class="read_bt_1" style="margin-left: 40%;"><a href="product.html">Sell it</a></div>
+                 
+              </div>
+           </div>
+           </div>
+           </div>
 
-            <div class="container">
-               <div class="row justify-content-between">
-             
-            
+           <div class="popup ">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+           </div>
 
-                  <div class="col-3  ">
-                     <div class="card" style="width: 18rem; background-color: rgb(232, 234, 234);">
-                        <img src="images/pimg.jpg" class="card-img-top" alt="..." style="width: 90%;">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="col-3  ">
-                     <div class="card" style="width: 18rem; background-color: rgb(232, 234, 234);">
-                        <img src="images/pimg.jpg" class="card-img-top" alt="..." style="width: 90%;">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                  </div>
-  
-                  
-                
-                  
+           <div class="temp active">
 
-
-               </div>
-            </div>
-            </div>
-            </div>
-         
-         
-      <!-- footer section start -->
+           </div>
+      <!-- Blog section end -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="row">
@@ -193,23 +186,5 @@
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <!-- owl carousel -->
-      <script>
-         $('.owl-carousel').owlCarousel({
-         loop:true,
-         margin:30,
-         nav:true,
-         responsive:{
-          0:{
-              items:1
-          },
-          600:{
-              items:3
-          },
-          1000:{
-              items:4
-          }
-         }
-         })
-      </script>
    </body>
 </html>
