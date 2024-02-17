@@ -3,6 +3,13 @@
 ## Introduction
 Welcome to our E-Commerce Website powered by Firebase! This project enables users to buy and sell products, leveraging the capabilities of Firebase for authentication, database management, and storage. Users can browse through a variety of products, make purchases, and even become sellers after verification from the admin.
 
+## Screenshots
+
+
+https://github.com/Nothing00980/E-commerce-Website/assets/100027640/d5cb696a-2552-417c-8e2a-76e4654db399
+
+
+
 ## Features
 - **User Authentication**: Utilize Firebase Authentication to securely manage user sign-up, login, and logout functionalities.
 - **Product Listings**: Display a wide range of products available for purchase, categorized for easy navigation.
